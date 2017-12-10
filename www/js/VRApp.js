@@ -4,7 +4,6 @@
   var cameraHelper;
 
   var particle;
-  var randomSphere;
 
   function onSetup() {
 
