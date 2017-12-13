@@ -72,7 +72,7 @@
     triangleGroup.position.y = 30;
     triangleGroup.position.x = 50;
     triangleGroup.position.z = 0;    
-    triangleGroup.scale.set(0.08, 0.08, 0.08);
+    triangleGroup.scale.set(.1, .1, .1);
     triangleGroup.rotation.y = Math.PI;
     triangleGroup.rotation.z = -0.1;
     VRWorld.scene.add(triangleGroup);
