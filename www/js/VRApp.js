@@ -17,10 +17,10 @@
   function onSetup() {
 
     var gridHelper = new THREE.GridHelper(500, 500);
-    VRWorld.scene.add(gridHelper);
+    //VRWorld.scene.add(gridHelper);
 
     cameraHelper = new THREE.CameraHelper(VRWorld.vrCamera);
-    VRWorld.scene.add(cameraHelper);
+    //VRWorld.scene.add(cameraHelper);
 
     var light = new THREE.HemisphereLight(0x777777, 0x000000, 2.5);
     VRWorld.scene.add(light);
